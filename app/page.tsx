@@ -8,6 +8,7 @@ import PricingSection from "@/components/pricing-section";
 import GlobalNetworkSection from "@/components/global-network-section";
 import TestimonialsSection from "@/components/testimonials-section";
 import NewsletterSection from "@/components/newsletter-section";
+import Footer from "@/components/footer";
 export default function LaslesVPNLanding() {
   return (
     <div className="min-h-screen bg-white">
@@ -24,6 +25,7 @@ export default function LaslesVPNLanding() {
         </div>
       </div>
       <NewsletterSection />
+      <Footer />
     </div>
   );
 }
