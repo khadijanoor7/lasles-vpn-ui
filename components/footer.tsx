@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
 
           {/* Wrapper for the right three columns - Inner Flex Container */}
-          <div className="flex flex-col md:flex-row md:justify-around xl:justify-between flex-grow gap-12 md:gap-x-32 xl:gap-x-">
+          <div className="flex flex-col md:flex-row md:justify-around xl:justify-between flex-grow gap-12 md:gap-x-16 xl:gap-x-">
             {/* Product Links */}
             <div className="space-y-6">
               <h3 className="text-lg font-semibold text-gray-900">Product</h3>
